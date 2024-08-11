@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font family */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button {
+    background-color: none;
+    border: none;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h3,
+p,
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+/* basic css */
+/* navbar start */
+#header {
+    background: rgb(255, 249, 244);
+}
+
+#header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#header .navbar .menu-icon {
+   display: none;
+}
+#header .navbar .logo img {
+    max-width: 291.11px;
+}
+
+#header .navbar ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#header .navbar a {
+    margin: 0 28px;
+    color: rgb(60, 60, 60);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    transition: all linear 0.2s;
+}
+
+#header .navbar a:hover,#header .navbar a.active {
+    color: rgb(250, 128, 76);
+}
+
+/* navbar end */
+/* hero section start*/
+#header .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+    padding-bottom: 120px;
+
+}
+
+#header .image {
+    flex: 1;
+}
+
+#header .image img {
+    width: 100%;
+}
+
+#header .text {
+    flex: 1;
+    text-align: center;
+}
+
+#header .text h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(250, 128, 76);
+    margin-bottom: 10px;
+}
+
+#header .text h1 span {
+    color: rgb(54, 57, 88);
+}
+
+#header .text p {
+    color: rgb(62, 62, 62);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#header .btn {
+    text-align: left;
+}
+
+#header  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    background: linear-gradient(180.00deg, rgb(61, 79, 243), rgb(53, 67, 188) 100%);
+    padding: 18px 33px;
+    transition: all linear 0.2s;
+    
+}
+#header  .button:hover {
+    background: linear-gradient(180.00deg, rgb(54, 70, 213), rgb(41, 51, 146) 100%);
+}
+
+#header .button img {
+    width: 24px;
+}
+
+#header .button h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#header .text a {}
+
+#header .text a {}
+
+#header {}
+
+#header {}
+
+#header {}
+
+/* hero section end */
