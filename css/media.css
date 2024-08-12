@@ -31,6 +31,21 @@
     #casual-shoe .shoe-collection .btn a {
         padding: 10px 20px;
     }
+    #formal-shoe .shoe-collection {
+        max-width: 992px;
+        
+    }
+    #formal-shoe .shoe-collection .btn {
+        flex-direction: column;
+        align-items: start;
+    }
+    #formal-shoe .shoe-collection .image img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #formal-shoe .shoe-collection .btn a {
+        padding: 10px 20px;
+    }
     
 
 }
@@ -70,6 +85,25 @@
         padding: 10px 20px;
     }
     #casual-shoe .shoe-collection .btn .buy {
+ 
+        font-size: 0.8rem;
+    }
+    #formal-shoe .shoe-collection {
+        max-width: 768px;
+        
+    }
+    #formal-shoe .shoe-collection .btn {
+        flex-direction: column;
+        align-items: start;
+    }
+    #formal-shoe .shoe-collection .image img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #formal-shoe .shoe-collection .btn a {
+        padding: 10px 20px;
+    }
+    #formal-shoe .shoe-collection .btn .buy {
  
         font-size: 0.8rem;
     }
@@ -127,6 +161,9 @@
         padding: 15px 25px;
 
     }
+    #casual-shoe {
+        margin: 45px auto;
+    }
 
     #casual-shoe .shoe-collection {
         flex-direction: column;
@@ -137,6 +174,22 @@
         padding: 15px 25px;
     }
     #casual-shoe .shoe-collection .btn span {
+        font-size: 2rem;
+    
+    }
+    #formal-shoe {
+        margin: 45px auto;
+    }
+
+    #formal-shoe .shoe-collection {
+        flex-direction: column;
+
+    }
+    #formal-shoe .shoe-collection .btn a {
+    
+        padding: 15px 25px;
+    }
+    #formal-shoe .shoe-collection .btn span {
         font-size: 2rem;
     
     }
@@ -196,6 +249,9 @@
         padding: 15px 25px;
 
     }
+    #casual-shoe {
+        margin: 45px auto;
+    }
 
     #casual-shoe .shoe-collection {
         flex-direction: column;
@@ -206,6 +262,21 @@
         padding: 15px 25px;
     }
     #casual-shoe .shoe-collection .btn span {
+        font-size: 2rem;
+    
+    }
+    #formal-shoe {
+        margin: 45px auto;
+    }
+    #formal-shoe .shoe-collection {
+        flex-direction: column;
+
+    }
+    #formal-shoe .shoe-collection .btn a {
+    
+        padding: 15px 25px;
+    }
+    #formal-shoe .shoe-collection .btn span {
         font-size: 2rem;
     
     }
