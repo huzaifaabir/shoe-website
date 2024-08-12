@@ -1,119 +1,219 @@
-
 /* tablet device start */
-@media screen and (max-width:992px) and (min-width:768px){
-    .container{
+@media screen and (max-width:992px) and (min-width:768px) {
+    .container {
         margin: 0px 20px;
     }
+
     #header .navbar a {
         margin: 0 18px;
     }
+
     #header .navbar .logo img {
         max-width: 220px;
     }
+
     #header .text span {
         color: rgb(54, 57, 88);
         font-size: 4rem;
     }
+    #casual-shoe .shoe-collection {
+        max-width: 992px;
+        
+    }
+    #casual-shoe .shoe-collection .btn {
+        flex-direction: column;
+        align-items: start;
+    }
+    #casual-shoe .shoe-collection .image img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #casual-shoe .shoe-collection .btn a {
+        padding: 10px 20px;
+    }
     
+
 }
+
 /*tablet device end*/
 /* tablet device start */
-@media screen and (max-width:768px) and (min-width:576px){
-    .container{
+@media screen and (max-width:768px) and (min-width:576px) {
+    .container {
         margin: 0px 20px;
     }
+
     #header .navbar a {
         margin: 0 15px;
     }
+
     #header .navbar .logo img {
         max-width: 220px;
     }
+
     #header .text h1 {
         font-size: 4rem;
 
     }
+    #casual-shoe .shoe-collection {
+        max-width: 768px;
+        
+    }
+    #casual-shoe .shoe-collection .btn {
+        flex-direction: column;
+        align-items: start;
+    }
+    #casual-shoe .shoe-collection .image img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #casual-shoe .shoe-collection .btn a {
+        padding: 10px 20px;
+    }
+    #casual-shoe .shoe-collection .btn .buy {
+ 
+        font-size: 0.8rem;
+    }
     
 }
+
 /*tablet device end*/
 /* medium-mobile device start */
-@media screen and (max-width:576px) and (min-width:375px){
-    .container{
+@media screen and (max-width:576px) and (min-width:375px) {
+    .container {
         margin: 0px 20px;
     }
+
     #header .navbar .menu-icon {
         display: block;
-     }
-    #header .navbar .menu-icon i {
-        font-size: 1.5rem;
-     }
-    #header .navbar .menu-item {
-        display: none;
-     }
-    #header .hero-section {
-        flex-direction: column-reverse;
-        gap: 30px;
-        margin-top: 20px;
-        padding-bottom: 50px;
-    
-    }
-    #header .text h1 {
-        font-size: 3rem;
-        line-height: 50px;
-    }
-    #header .text p {
-
-        font-size: 0.8rem;
-    }
-    #header .button span {
-
-        font-size: 0.8rem;
- }
-    #header  .button {
-        padding: 15px 25px;
-    
-    }
-    
-}
-/* medium-mobile device end*/
-/* small-mobile device start */
-@media screen and (max-width:375px){
-    .container{
-        margin: 0px 20px;
     }
     #header .navbar .logo img {
-        max-width: 200px;
+        max-width: 250px;
     }
-    #header .navbar .menu-icon {
-        display: block;
-     }
+    #header .navbar {
+        padding: 20px 0;
+    }
     #header .navbar .menu-icon i {
-        font-size: 1rem;
-     }
+        font-size: 1.5rem;
+    }
+
     #header .navbar .menu-item {
         display: none;
-     }
+    }
+
     #header .hero-section {
         flex-direction: column-reverse;
         gap: 30px;
         margin-top: 20px;
         padding-bottom: 50px;
-    
+
     }
+
     #header .text h1 {
         font-size: 3rem;
         line-height: 50px;
     }
+
     #header .text p {
 
         font-size: 0.8rem;
     }
+
     #header .button span {
 
         font-size: 0.8rem;
- }
- #header  .button {
-    padding: 15px 25px;
+    }
+
+    #header .button {
+        padding: 15px 25px;
+
+    }
+
+    #casual-shoe .shoe-collection {
+        flex-direction: column;
+
+    }
+    #casual-shoe .shoe-collection .btn a {
+    
+        padding: 15px 25px;
+    }
+    #casual-shoe .shoe-collection .btn span {
+        font-size: 2rem;
+    
+    }
 
 }
+
+/* medium-mobile device end*/
+/* small-mobile device start */
+@media screen and (max-width:375px) {
+    .container {
+        margin: 0px 20px;
+    }
+
+    #header .navbar .logo img {
+        max-width: 230px;
+    }
+    #header .navbar {
+        padding: 20px 0;
+    }
+
+    #header .navbar .menu-icon {
+        display: block;
+    }
+
+    #header .navbar .menu-icon i {
+        font-size: 1rem;
+    }
+
+    #header .navbar .menu-item {
+        display: none;
+    }
+
+    #header .hero-section {
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-top: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    #header .text h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    #header .text p {
+
+        font-size: 0.8rem;
+    }
+
+    #header .button span {
+
+        font-size: 0.8rem;
+    }
+
+    #header .button {
+        padding: 15px 25px;
+
+    }
+
+    #casual-shoe .shoe-collection {
+        flex-direction: column;
+
+    }
+    #casual-shoe .shoe-collection .btn a {
+    
+        padding: 15px 25px;
+    }
+    #casual-shoe .shoe-collection .btn span {
+        font-size: 2rem;
+    
+    }
+
+    
+
+    
+
 }
+
 /* small-mobile device end*/
