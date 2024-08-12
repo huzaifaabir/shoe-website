@@ -46,6 +46,29 @@
     #formal-shoe .shoe-collection .btn a {
         padding: 10px 20px;
     }
+    #footer .content {
+        flex-direction: column-reverse;
+    }
+    #footer .contact-item {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+    
+    #footer .image {
+        width: 100%;
+    }
+    #footer .item {
+        flex-direction: column;
+        gap: 16px;
+    }
+    #footer .item h3 {
+        text-align: center;
+    }
+    
+    #footer .item p {
+        text-align: center;
+    }
     
 
 }
@@ -107,7 +130,32 @@
  
         font-size: 0.8rem;
     }
+    #footer .content {
+        flex-direction: column-reverse;
+    }
+    #footer .contact-item {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+    #footer .image {
+        width: 80%;
+    }
     
+    #footer .image img {
+        width: 100%;
+    }
+    #footer .item {
+        flex-direction: column;
+        gap: 16px;
+    }
+    #footer .item h3 {
+        text-align: center;
+    }
+    
+    #footer .item p {
+        text-align: center;
+    }
 }
 
 /*tablet device end*/
@@ -192,6 +240,34 @@
     #formal-shoe .shoe-collection .btn span {
         font-size: 2rem;
     
+    }
+    #footer {
+        margin: 45px auto;
+    }
+    #footer .content {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    #footer .contact-item {
+        width: 100%;
+    }
+    
+    #footer .image {
+        width: 80%;
+    }
+    #footer .image img {
+        width: 100%;
+    }
+    #footer .item {
+        flex-direction: column;
+        gap: 16px;
+    }
+    #footer .item h3 {
+        text-align: center;
+    }
+    
+    #footer .item p {
+        text-align: center;
     }
 
 }
@@ -280,9 +356,31 @@
         font-size: 2rem;
     
     }
-
+    #footer {
+        margin: 45px auto;
+    }
+    #footer .content {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    #footer .contact-item {
+        width: 100%;
+    }
     
-
+    #footer .image {
+        width: 100%;
+    }
+    #footer .item {
+        flex-direction: column;
+        gap: 16px;
+    }
+    #footer .item h3 {
+        text-align: center;
+    }
+    
+    #footer .item p {
+        text-align: center;
+    }
     
 
 }

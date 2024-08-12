@@ -202,7 +202,7 @@ a {
     border-radius: 20px;
     margin-bottom: 17px;
     background: rgb(241, 241, 241);
-    
+
 }
 
 #casual-shoe .shoe-collection .image img {
@@ -210,9 +210,10 @@ a {
     max-height: 283px;
 }
 
-#casual-shoe .shoe-collection .card{
+#casual-shoe .shoe-collection .card {
     text-align: center;
 }
+
 #casual-shoe .shoe-collection .card h3 {
     color: rgb(54, 57, 88);
     font-size: 1.5rem;
@@ -313,7 +314,7 @@ a {
     border-radius: 20px;
     margin-bottom: 17px;
 
-    
+
 }
 
 #formal-shoe .shoe-collection .image img {
@@ -321,9 +322,10 @@ a {
     max-height: 283px;
 }
 
-#formal-shoe .shoe-collection .card{
+#formal-shoe .shoe-collection .card {
     text-align: center;
 }
+
 #formal-shoe .shoe-collection .card h3 {
     color: rgb(54, 57, 88);
     font-size: 1.5rem;
@@ -384,3 +386,65 @@ a {
 }
 
 /* formal section end */
+/* footer section start */
+#footer {
+    margin: 90px auto;
+}
+
+#footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+#footer .contact-item {
+    width: 45%;
+}
+
+#footer .image {
+    width: 55%;
+    text-align: center;
+}
+
+#footer .image img {
+    width: 100%;
+}
+
+#footer .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    padding: 27px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+#footer .item img {
+    max-width: 78px;
+}
+
+#footer .item h3 {
+    color: rgb(54, 57, 88);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+#footer .item p {
+    color: rgb(62, 62, 62);
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* footer section end */
